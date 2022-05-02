@@ -1,5 +1,7 @@
 package com.javaex.ex02;
 
+import com.javaex.ex04.Circle;
+
 public class CircleList {
 	
 	//필드

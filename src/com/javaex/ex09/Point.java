@@ -1,25 +1,23 @@
-package com.javaex.ex06;
+package com.javaex.ex09;
 
 public class Point {
-	
-	
-	//생성자
+
+	// 필드
 	private int x;
 	private int y;
+
 	
-	
-	//필드
+	// 생성자
 	public Point() {
-		super();
+		super();   //Object()
 	}
 	public Point(int x, int y) {
-		super();
+		super();   //Object()
 		this.x = x;
 		this.y = y;
 	}
-	
-	
-	//메소드 gs
+
+	// 메소드 gs
 	public int getX() {
 		return x;
 	}
@@ -32,11 +30,12 @@ public class Point {
 	public void setY(int y) {
 		this.y = y;
 	}
+
 	
-	
-	//메소드 일반
-	
-	
-	
-	
+	// 메소드 일반
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
+	}
+
 }
